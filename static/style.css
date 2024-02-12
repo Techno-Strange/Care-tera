@@ -1,0 +1,86 @@
+body{
+    
+    background-size: 1350px;
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:absolute;
+
+}
+
+section{
+    color: rgb(255, 255, 255);
+    font-size:3ch;
+    font-family: 'Salsa', cursive ;
+    align-items: center;
+}
+
+.marq{
+    
+    color:rgb(7, 243, 85);
+    font-size: 50px;
+    font-family: 'Salsa', cursive
+}
+.para{
+    background:transparent;
+    color: rgb(41, 40, 40);
+    outline-color: black;
+    font-family: 'Salsa', cursive
+    
+    
+}
+.lines{
+    background:transparent;
+    color: rgb(253, 253, 253);
+    border: 5px solid yellow;   
+}
+
+.a{
+    background-image: url(hue.png); 
+    color: rgb(255, 255, 255);
+    font-family: 'Salsa', cursive
+    
+
+}
+h4{
+    color: rgb(0, 0, 0);
+    font-family: 'Salsa', cursive
+}
+h1{
+    color: black;
+    font-family: 'Salsa', cursive
+}
+.int{
+    width: 40%;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: 8px ridge rgba(4, 245, 185, 0.6);
+    border-radius: 30px;
+    background: transparent;
+    color: rgb(17, 0, 255);
+}
+h3{
+    color: red;
+}
+.submit-btn{
+    width: 20%;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: 8px ridge rgba(4, 245, 185, 0.6);
+    border-radius: 30px;
+    background: transparent;
+    color: rgb(17, 0, 255);
+    
+    
+}
+

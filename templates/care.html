@@ -1,0 +1,57 @@
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <div class="flash">{{ messages[0] }}</div>
+  {% endif %}
+{% endwith %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care-tera </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+</head>
+<body background="{{ url_for('static', filename='Children.jpg') }}" align="center">    
+    <section class="main">
+         <div class="a">
+          <h1><b><i>Care-Tera</i></b></h1></div>
+          <div class="b">
+          <h3>Starting of a New Life</h3>
+         </div>
+         <div class="marq">
+          <marquee><b>Welcome Everyone</b></marquee> 
+         </div>  
+            <div>
+                <p><b>About</b></p>
+            </div>
+            <div class="para">
+               <p>Mental health impacts all age groups, yet identifying issues in children can be challenging, especially as they often prefer expressing themselves online. With advanced language analysis models like ChatGPT, we can now analyze conversations more effectively than ever before.
+                To address the lack of time and patience among adults to listen to children, we propose a web application. This app would integrate ChatGPT's API to assess children's moods and provide personalized suggestions after each interaction. By leveraging technology, we aim to create a supportive platform that helps children express themselves and receive the support they need.</p> 
+                
+            </div><br>
+            <div>
+                <form id="login" class="int-form" method="post" action="/">
+                    <h4>Enter your Name here:</h4>
+                    <input type="text" class="int" placeholder="Enter Your Name" required><br>
+                    <h4>Which class you are studying:</h4>
+                    <input type="text" class="int" placeholder="Enter your class" required><br>
+                    <h4>Enter your age:</h4>
+                    <input type="text" class="int" placeholder="Enter Your Age " required><br>
+                    <h4>Write your detailed issue which you are facing:</h4>
+                    <input type="text" class="int" placeholder="Write your issue" required><br><br>
+                    <button type="submit" class="submit-btn">Login Here</button>
+                </form>
+            </div>            
+                <h1> Keep Smiling  </h1>
+            </div>
+    </section>
+</body>
+</html>
