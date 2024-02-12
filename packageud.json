@@ -1,0 +1,21 @@
+{
+  "name": "bitnbuild",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greyshadow37/Electron-mental-health.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greyshadow37/Electron-mental-health/issues"
+  },
+  "homepage": "https://github.com/greyshadow37/Electron-mental-health#readme"
+}
